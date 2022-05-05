@@ -33,21 +33,21 @@ Code Layout
 
  Written by me specifically for this demo:
 
-- LandScape.ts
-- PerlinTerrain.ts
-- Region.ts
-- Shaders.ts
-- Tile.ts
-- Utilities.ts
-- main.ts
+- `LandScape.ts`
+- `PerlinTerrain.ts`
+- `Region.ts`
+- `Shaders.ts`
+- `Tile.ts`
+- `Utilities.ts`
+- `main.ts`
 
 
 Previously written code by me:
 
-- CanvasManager.ts
-- DebugCanvas.ts
+- `CanvasManager.ts`
+- `DebugCanvas.ts`
 
 
 
-Other .js are parts of three.js
+Other `.js` are parts of `three.js`
 
