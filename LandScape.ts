@@ -258,7 +258,7 @@ class LandScape {
 
 					let shader_material = this.shader.generate_material( 
 						alphas, [ 
-							new THREE.Color( 0x00ff00 ), new THREE.Color( 0xff0000 ) 
+							new THREE.Color( 0x1e2963 ), new THREE.Color( 0xbf2a7f ) 
 						] );
 
 					let mesh = this.shader.generate_renderable( 
@@ -439,7 +439,7 @@ class LandScape {
 
 				let shader_material = this.shader.generate_material( 
 					alphas, [ 
-						new THREE.Color( 0x00ff00 ), new THREE.Color( 0xff0000 ) 
+						new THREE.Color( 0x1e2963 ), new THREE.Color( 0xbf2a7f ) 
 					] );
 
 				let mesh = this.shader.generate_renderable( 
@@ -504,8 +504,8 @@ class LandScape {
 
 				// Set the colour uniforms too
 				// @ts-ignore
-				mesh.material.uniforms.colorA.value = new THREE.Color( 0x00ff00 ); // @ts-ignore
-				mesh.material.uniforms.colorB.value = new THREE.Color( 0xff0000 ); 
+				mesh.material.uniforms.colorA.value = new THREE.Color( 0x1e2963 ); // @ts-ignore
+				mesh.material.uniforms.colorB.value = new THREE.Color( 0xbf2a7f ); 
 
 				// Done
 				out.push( mesh );
