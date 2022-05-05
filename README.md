@@ -22,9 +22,9 @@ This is a quick `three.js` based demo of multi-resolution level of detail render
 **Notes:**
 
 - Normally you'd expect the lod factors to come from distance from camera, but I made them run from a nice oscillating pattern so you can see what's going on.
-- At runtime all morphing is done by a vertex shader, the only data that's uploading in real time 
-- Rendering is simple so you can see what's going on, shaders are in `Shaders.ts`
-- No tile stitching, ran out of time on a quick demo. Not too hard though, either stitch potential T junctions to the lower resolution LOD, or be clever with a mask on the morph in the vertex shader.
+- At runtime all morphing is done by a vertex shader, the only data that's uploading in real time are the uniform blend factors which are 4 floats per tile.
+- Rendering is simple so you can see what's going on, shaders are in `Shaders.ts`, there's a simple light rotating around just to give a slight depth.
+- There's no complete tile stitching, ran out of time on a quick demo. Not too hard though, either stitch potential T junctions to the lower resolution LOD, or be clever with a mask on the morph in the vertex shader.
 
 
 
