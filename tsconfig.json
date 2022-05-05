@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+
+		// We don't want comments copied
+		"removeComments": true,
+
+		// Required because of await semantics, see https://stackoverflow.com/questions/47995484/whats-the-purpose-of-typescripts-awaiter
+		"target": "es2017",		
+
+		"outDir": "./js",
+
+		// Debugging
+		"sourceMap": true, 
+
+		// Get js file types
+		"allowJs": true,
+
+		"moduleResolution": "node",
+
+	},
+	"exclude": [],
+	"include": [
+		"*.ts",
+		"./node_modules/@types/**/*.ts"
+	],
+	"typeRoots": [
+		"./node_modules/@types"
+	]
+
+}

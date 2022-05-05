@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>terrain tiling LOD demo</title>
+	<meta name="description" content="terrain">
+	<meta name="author" content="terrain">
+
+	<!-- purecss - no need for further reset (do not remove this!) local version of https://unpkg.com/purecss@1.0.0/build/pure-min.css -->
+	<link rel="stylesheet" href="pure-min.css">
+
+	<link rel="stylesheet" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="favicon.ico">
+
+</head>
+
+<body>
+
+	<div id="scene_container"></div>
+	
+	<div id="startup_spinner"></div>
+
+	<div id="debug_canvas_container">
+		<canvas id="debug_canvas_canvas"></canvas>
+	</div>
+
+	<div id="debug_landing_root">
+		<div id="debug_landing_button">
+			<div id="debug_landing_text">
+				DEBUG
+			</div>
+		</div>
+	</div>
+
+	<script type="module">		
+		import * as MAIN from "./js/main.js"
+
+		console.debug( "MAIN PAGE STARTUP" );
+		let scene = new MAIN.Scene();
+
+		// Go
+		scene.start_animating();
+
+	</script>
+
+	<!-- startup -->
+	<script>
+
+
+	</script>
+
+</body>
