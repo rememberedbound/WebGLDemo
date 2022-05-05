@@ -33,6 +33,8 @@ Running Example
 
 [here]( https://logicformation.com/terrain/main.html )
 
+**NOTE:** Only tested in chrome, safari appears to run okay but looks like it'll need some optimisations.
+
 
 
 Code Layout
