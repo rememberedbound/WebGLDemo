@@ -7,7 +7,7 @@ Uses `three.js` orbital camera so you can spin around if you want to.
 About
 -----
 
-This is a quick `three.js` based demo of multi-resolution level of detail rendering on a sample terrain. Various patches morph smoothly as the detail is increased or decreased.
+This is a quick `three.js` based demo of multi-resolution level of detail rendering on a sample terrain. Various patches morph smoothly as the detail is increased or decreased. This is achieved by a higher resolution patch morphing its vertices towards the lower resolution patch it'll switch to - this works both ways.
 
 
 **What it does:**
